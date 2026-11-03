@@ -45,6 +45,18 @@ export default function Home() {
       <div className="pt-6 flex flex-col items-center">
         <span className="text-black font-extrabold tracking-tighter text-xl">Our Clients</span>
         <span className="text-[#717171] tracking-tight font-thin text-[12px] pt-1">We have been working with some Fortune 500+ clients</span>
+        <div className="w-full flex flex-row py-8 px-6 items-center justify-around">
+          <img src="/logo.png" alt="" />
+          <img src="/logo2.png" alt="" />
+          <img src="/logo3.png" alt="" />
+          <img src="/logo4.png" alt="" />
+          <img src="/logo5.png" alt="" />
+          <img src="/logo.png" alt="" />
+          <img src="/logo2.png" alt="" />
+        </div>
+        <h2 className="pt-8 text-[#4D4D4D] font-bold leading-none text-2xl">Manage your entire community</h2>
+        <h2 className="text-[#4D4D4D] font-bold text-2xl">in a single system</h2>
+        <span className="text-[#4D4D4D] text-xs pt-2">Who is Nextcent suitable for?</span>
       </div>
       </div>
     </main>
