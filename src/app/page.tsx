@@ -1,6 +1,5 @@
 // src/app/page.tsx
-import ProfileCard from "@/components/ProfileCard";
-import ProjectCard from "@/components/ProjectCard";
+
 
 export default function Home() {
   return (
@@ -56,7 +55,78 @@ export default function Home() {
         </div>
         <h2 className="pt-8 text-[#4D4D4D] font-bold leading-none text-2xl">Manage your entire community</h2>
         <h2 className="text-[#4D4D4D] font-bold text-2xl">in a single system</h2>
-        <span className="text-[#4D4D4D] text-xs pt-2">Who is Nextcent suitable for?</span>
+        <span className="text-[#717171] text-xs pt-2">Who is Nextcent suitable for?</span>
+        <div className="pt-6 px-8 flex flex-row w-full items-center justify-around">
+          <div className="flex flex-col items-center max-w-50 shadow-[0_2px_4px_0_rgba(171,190,209,0.2)]">
+            <img src="/membership.png" alt="" />
+            <span className="text-[#4D4D4D] font-bold text-xl pt-3 leading-7">Membership</span>
+            <span className="leading-none text-[#4D4D4D] font-bold text-xl">Organization</span>
+            <p className="text-xs text-center text-wrap text-[#717171] pt-2 leading-4">Our membership management software provides full automation of membership renewals and payments</p>
+          </div>
+          <div className="flex flex-col items-center max-w-50 shadow-[0_2px_4px_0_rgba(171,190,209,0.2)] ">
+            <img src="/national.png" alt="" />
+            <span className="text-[#4D4D4D] font-bold text-xl pt-3 leading-7">Membership</span>
+            <span className="leading-none text-[#4D4D4D] font-bold text-xl">Organization</span>
+            <p className="text-xs text-center text-wrap text-[#717171] pt-2 leading-4">Our membership management software provides full automation of membership renewals and payments</p>
+          </div>
+          <div className="flex flex-col items-center max-w-50 shadow-[0_2px_4px_0_rgba(171,190,209,0.2)]">
+            <img src="/clubs.png" alt="" />
+            <span className="leading-7 text-[#4D4D4D] font-bold text-xl pt-3">Membership</span>
+            <span className="leading-none text-[#4D4D4D] font-bold text-xl">Organization</span>
+            <p className="text-xs text-center text-wrap text-[#717171] pt-2 leading-4">Our membership management software provides full automation of membership renewals and payments</p>
+          </div>
+        </div>
+        <div className="flex flex-row pt-20 items-center justify-center w-full px-30">
+          <img className="max-w-100" src="/frame35.png" alt="" />
+          <div className="max-w-150 flex flex-col items-start mb-16">
+            <span className="text-[#4D4D4D] font-bold text-2xl leading-7">
+              The unseen of spending three <br />years at Pixelgrade
+            </span>
+            <p className="text-wrap text-xs text-[#717171] pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+            <button className="mt-4 px-4 py-2 rounded-sm text-white text-sm bg-[#4CAF4F]">Learn More</button>
+          </div>
+        </div>
+        <div className="flex flex-row bg-[#F5F7FA] items-center justify-center gap-60 w-full px-16 py-12">
+          <div className="flex flex-col">
+            <span className="text-[#4D4D4D] text-xl font-bold">Helping a local</span>
+            <span className="text-[#4CAF4F] text-xl font-bold">business reinvent itself</span>
+            <span className="text-xs text-gray-900 mt-2">We reached here with our hard work and dedication</span>
+          </div>
+          <div className="flex flex-col gap-8">
+            <div className="flex flex-row gap-16">
+              <div className="flex flex-row items-center gap-2">
+                <img src="/member_symbol.png" alt="" />
+                <div className="flex flex-col">
+                  <span className="text-[#4D4D4D] text-xl font-bold">2,245,341</span>
+                  <span className="text-[#717171] text-xs">Members</span>
+                </div>
+              </div>
+              <div className="flex flex-row items-center gap-2">
+                <img src="/member_symbol.png" alt="" />
+                <div className="flex flex-col">
+                  <span className="text-[#4D4D4D] text-xl font-bold">2,245,341</span>
+                  <span className="text-[#717171] text-xs">Members</span>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-row gap-16">
+              <div className="flex flex-row items-center gap-2">
+                <img src="/member_symbol.png" alt="" />
+                <div className="flex flex-col">
+                  <span className="text-[#4D4D4D] text-xl font-bold">2,245,341</span>
+                  <span className="text-[#717171] text-xs">Members</span>
+                </div>
+              </div>
+              <div className="flex flex-row items-center gap-2">
+                <img src="/member_symbol.png" alt="" />
+                <div className="flex flex-col">
+                  <span className="text-[#4D4D4D] text-xl font-bold">2,245,341</span>
+                  <span className="text-[#717171] text-xs">Members</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       </div>
     </main>
