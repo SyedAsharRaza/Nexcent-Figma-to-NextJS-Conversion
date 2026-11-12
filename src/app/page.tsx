@@ -30,7 +30,6 @@ export default function Home() {
               </button>
             </div>
           </div>
-
           {/* Hero Section */}
           <div className="flex flex-col gap-10 items-center pb-4 px-4 lg:px-0">
             <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-8 lg:gap-20 pb-6 lg:pb-10 px-2">
