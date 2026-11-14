@@ -5,7 +5,6 @@ export default function Home() {
     <main className="overflow-x-hidden">
       <div className="flex flex-col">
         <div className="bg-[#F5F7FA] w-full flex flex-col justify-around items-center gap-10 lg:gap-16">
-          {/* Navbar */}
           <div className="w-full flex flex-wrap lg:flex-row justify-between lg:justify-around items-center pt-4 lg:pt-2 px-4 lg:px-0 gap-4">
             <div className="flex flex-row items-center gap-1">
               <img src="/Icon.png" alt="" className="w-auto h-[24px]" />
@@ -30,7 +29,6 @@ export default function Home() {
               </button>
             </div>
           </div>
-          {/* Hero Section */}
           <div className="flex flex-col gap-10 items-center pb-4 px-4 lg:px-0">
             <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-8 lg:gap-20 pb-6 lg:pb-10 px-2">
               <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
@@ -132,7 +130,11 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col lg:flex-row pt-12 lg:pt-20 items-center justify-center w-full px-6 lg:px-30 gap-8 lg:gap-0">
-            <img className="w-full max-w-[320px] lg:max-w-100" src="/frame35.png" alt="" />
+            <img
+              className="w-full max-w-[320px] lg:max-w-100"
+              src="/frame35.png"
+              alt=""
+            />
             <div className="max-w-150 flex flex-col items-center text-center lg:items-start lg:text-left mb-8 lg:mb-16">
               <span className="text-[#4D4D4D] font-bold text-2xl leading-7">
                 The unseen of spending three <br className="hidden lg:inline" />
@@ -328,6 +330,96 @@ export default function Home() {
           <button className="px-6 py-2 rounded-sm text-white text-sm bg-[#4CAF4F]">
             Learn More
           </button>
+        </div>
+
+        <div className="bg-[#263238] py-10 px-6 flex flex-col lg:flex-row items-center lg:items-start justify-center gap-10 lg:gap-0 text-center lg:text-left">
+          <div className="flex flex-col items-center lg:items-start gap-4">
+            <div className="flex flex-row items-center gap-2">
+              <img src="/Icon.png" alt="" className="w-auto h-[24px]" />
+              <span className="font-extrabold text-[26px] tracking-tighter leading-none text-white">
+                Nexcent
+              </span>
+            </div>
+            <div className="flex flex-col gap-1 lg:mr-64">
+              <span className="text-[14px] text-[#F5F7FA] leading-none">
+                Copyright © 2020 Nexcent ltd.
+              </span>
+              <span className="text-[14px] text-[#F5F7FA] leading-none">
+                All rights reserved
+              </span>
+            </div>
+            <div className="flex flex-row gap-2">
+              <div className="flex justify-center items-center rounded-full w-8 h-8 bg-[#FFFFFF]/10">
+                <img src="/instalogo.png" alt="" />
+              </div>
+              <div className="flex justify-center items-center rounded-full w-8 h-8 bg-[#FFFFFF]/10">
+                <img src="/instalogo.png" alt="" />
+              </div>
+              <div className="flex justify-center items-center rounded-full w-8 h-8 bg-[#FFFFFF]/10">
+                <img src="/instalogo.png" alt="" />
+              </div>
+              <div className="flex justify-center items-center rounded-full w-8 h-8 bg-[#FFFFFF]/10">
+                <img src="/instalogo.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col items-center lg:items-start lg:mr-16">
+            <span className="text-[#FFFFFF] font-bold text-[20px] mb-4">
+              Company
+            </span>
+            <span className="text-[14px] text-[#F5F7FA] mb-2 leading-none">
+              About Us
+            </span>
+            <span className="text-[14px] text-[#F5F7FA] mb-2 leading-none">
+              Blog
+            </span>
+            <span className="text-[14px] text-[#F5F7FA] mb-2 leading-none">
+              Contact Us
+            </span>
+            <span className="text-[14px] text-[#F5F7FA] mb-2 leading-none">
+              Pricing
+            </span>
+            <span className="text-[14px] text-[#F5F7FA] mb-2 leading-none">
+              Testimonials
+            </span>
+          </div>
+          <div className="flex flex-col items-center lg:items-start lg:mr-16">
+            <span className="text-[#FFFFFF] font-bold text-[20px] mb-4">
+              Support
+            </span>
+            <span className="text-[14px] text-[#F5F7FA] mb-2 leading-none">
+              Help center
+            </span>
+            <span className="text-[14px] text-[#F5F7FA] mb-2 leading-none">
+              Terms of service
+            </span>
+            <span className="text-[14px] text-[#F5F7FA] mb-2 leading-none">
+              Legal
+            </span>
+            <span className="text-[14px] text-[#F5F7FA] mb-2 leading-none">
+              Privacy policy
+            </span>
+            <span className="text-[14px] text-[#F5F7FA] mb-2 leading-none">
+              Status
+            </span>
+          </div>
+          <div className="flex flex-col items-center lg:items-start">
+            <span className="text-[#FFFFFF] font-bold text-[20px] mb-4">
+              Stay up to date
+            </span>
+            <div className="flex flex-row items-center justify-between bg-white/20 rounded-lg px-3 py-2.5 w-full max-w-64 sm:w-64">
+              <input
+                type="email"
+                name="emailarea"
+                id="emailid"
+                placeholder="Your email address"
+                className="bg-transparent text-gray-100 placeholder:text-gray-300 text-sm border-none outline-none focus:outline-none focus:ring-0 w-full pr-2"
+              />
+              <button type="button" className="cursor-pointer shrink-0">
+                <img src="/sendsymbol.png" alt="Send" className="w-4 h-4" />
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </main>
